@@ -3,10 +3,11 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-gray-100">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our practice is built on an inclusive mode</h1>
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-neutral-500">Fetured Projects</h1>
+          <h2 className="sm:text-2xl text-2xl font-medium title-font mb-4 text-neutral-400">Our practice is built on an inclusive mode</h2>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Strength in architecture emerges with an emotional connect to the work. The buildings must respond to the land, go beyond concepts, geometry, forms and symmetry, incorporating continuity and change.</p>
         </div>
         <div className="flex flex-wrap -m-4">
