@@ -1,15 +1,15 @@
-import Link from 'next/link';
 import React from 'react';
-import { CgChevronDown } from 'react-icons/cg';
+import Link from 'next/link';
+// import { CgChevronDown } from 'react-icons/cg';
 
 const Landing = () => {
   return (
-    <div className="w-[100vw] h-[91vh] bg-[url('https://images.pexels.com/photos/5584052/pexels-photo-5584052.jpeg')] bg-cover bg-center p-8 flex items-end">
-      <div className="flex flex-col text-center w-full items-center">
-        <h1 className="text-3xl font-light title-font mb-4 text-gray-900 tracking-widest">PLANNING - INTERIOR DESIGN - CONSERVATION - ARTS PLUS</h1>
-        <Link href="#philosophy">
-          <CgChevronDown className='text-2xl cursor-pointer' />
-        </Link>
+    <div className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
+      {/* Overlay */}
+      <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]' />
+      <div className='text-white p-5 z-[2] text-center'>
+        <h2 className='text-4xl font-extralight py-5'>PLANNING - INTERIOR DESIGN - CONSERVATION - ARTS PLUS</h2>
+        <button className='px-8 py-2 border'>Know More</button>
       </div>
     </div>
   )
