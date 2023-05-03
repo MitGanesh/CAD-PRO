@@ -4,6 +4,7 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper';
 import Image from 'next/image';
+import { SliderData } from './Common';
 
 const Philosophy = () => {
   return (
@@ -42,31 +43,13 @@ const Philosophy = () => {
             modules={[Navigation, Pagination, Autoplay]}
             pagination={{ clickable: true }}
           >
-            <SwiperSlide>
-              <div class="rounded-lg h-[60vh] overflow-hidden">
-                <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src="https://images.pexels.com/photos/7963572/pexels-photo-7963572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div class="rounded-lg h-[60vh] overflow-hidden">
-                <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src="https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div class="rounded-lg h-[60vh] overflow-hidden">
-                <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src="https://images.pexels.com/photos/7061672/pexels-photo-7061672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div class="rounded-lg h-[60vh] overflow-hidden">
-                <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div class="rounded-lg h-[60vh] overflow-hidden">
-                <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src="https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-              </div>
-            </SwiperSlide>
+            {SliderData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div class="rounded-lg h-[60vh] overflow-hidden">
+                  <Image width={600} height={470} alt="content" class="object-cover object-center h-full w-full" src={item.img} />
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

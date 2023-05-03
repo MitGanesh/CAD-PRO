@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="description" content="Genrated by create next app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Landing />
+      <Landing heading="PLANNING - INTERIOR DESIGN - CONSERVATION - ARTS PLUS" buttonLable="Know More" customClass="custom-img" />
       <Philosophy />
       <Projects />
     </div>

@@ -11,3 +11,15 @@ html {
 .custom-img {
   background-image: url('https://images.pexels.com/photos/5584052/pexels-photo-5584052.jpeg');
 }
+
+.custom-img1 {
+  background-image: url('https://images.unsplash.com/photo-1485368647436-ff0fb9990605?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80');
+}
+
+.about-img {
+  background-image: url('https://source.unsplash.com/1240x900/?Architecture&Interiors');
+}
+
+.contact-img {
+  background-image: url('https://plus.unsplash.com/premium_photo-1672264150595-d7ffdf1cf1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+}

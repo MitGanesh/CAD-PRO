@@ -3,14 +3,14 @@ import { CgFramer } from "react-icons/cg";
 
 const Footer = () => {
   return (
-    <footer class="text-gray-600 body-font bg-gray-200">
+    <footer class="text-gray-600 body-font bg-transparent">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <CgFramer className='text-5xl' />
-          <span className="ml-3 text-xl">SGCC</span>
+          <span className="ml-3 text-xl font-bold">CAD's</span>
         </a>
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-400 sm:py-2 sm:mt-0 mt-4">© 2023 SHREE GANESH CAD CENTER —
-          <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-400 sm:py-2 sm:mt-0 mt-4">© 2023 SHREE GANESH CAD
+          {/* <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a> */}
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="text-gray-500">
