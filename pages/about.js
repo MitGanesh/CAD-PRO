@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h2 class="text-3xl text-black tracking-widest font-medium title-font mb-1">SERVICES</h2>
-            <h1 class="text-lg font-light title-font text-gray-900">Cad's offers innovative design, expertise and practical solutions, while keeping in mind the social, economic, environmental and aesthetic issues involved. Our reputation is based on providing the highest quality of professional services to every client. We strive to produce work that is unique and practical.</h1>
+            <h1 class="text-lg font-light title-font text-gray-900">Cad&apos;s offers innovative design, expertise and practical solutions, while keeping in mind the social, economic, environmental and aesthetic issues involved. Our reputation is based on providing the highest quality of professional services to every client. We strive to produce work that is unique and practical.</h1>
           </div>
           <div class="container px-5 mx-auto">
             <div class="flex flex-wrap -m-4">

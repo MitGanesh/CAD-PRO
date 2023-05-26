@@ -7,7 +7,7 @@ const Footer = () => {
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <CgFramer className='text-5xl' />
-          <span className="ml-3 text-xl font-bold">CAD's</span>
+          <span className="ml-3 text-xl font-bold">CAD&apos;s</span>
         </a>
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-400 sm:py-2 sm:mt-0 mt-4">
           &copy; All rights are reserved 2023 @ cad.draftmore.com
