@@ -5,8 +5,8 @@ const ContactUs = () => {
   const title = `To make requests for further information,\n contact us via our social channels.`;
   return (
     <>
-      <Landing heading={title} buttonLable="Contact Now" customClass="contact-img" />
-      <section class="text-gray-600 body-font relative">
+      <Landing heading={title} buttonLable="Contact Now" customClass="contact-img" id="#connect" />
+      <section id='connect' class="text-gray-600 body-font relative">
         <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%saiprasad+executive+soalpur&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>

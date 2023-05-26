@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>SGCC - Planning & Designing</title>
+        <title>CAD's - Planning & Designing</title>
         <meta name="description" content="Genrated by create next app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
